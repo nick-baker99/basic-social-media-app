@@ -50,3 +50,10 @@ article {
 .posts-form input {
   display: block;
 }
+.post p {
+  margin-bottom: 1rem;
+}
+.post .post-by,
+.post .date {
+  font-size: 1rem;
+}
