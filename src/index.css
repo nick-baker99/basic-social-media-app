@@ -30,7 +30,7 @@ article {
   width: 100%;
   max-width: 500px;
   padding: 4rem 2rem;
-  border: 1px solid #ccc;
+  box-shadow: 0 0 3px #ccc;
   background-color: #fff;
   margin: 0 auto;
   margin-bottom: 2rem;
@@ -44,11 +44,26 @@ article {
   align-items: center;
   gap: 1rem;
 }
+.posts-form form {
+  background-color: #fff;
+  box-shadow: 0 0 3px #ccc;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+}
 .posts-form label {
   display: block;
 }
 .posts-form input {
   display: block;
+  height: 25px;
+}
+.posts-form button {
+  padding: 6px;
+  margin-top: 1rem;
+}
+.posts-form select {
+  width: 100%;
+  padding: 6px;
 }
 .post p {
   margin-bottom: 1rem;
@@ -56,4 +71,16 @@ article {
 .post .post-by,
 .post .date {
   font-size: 1rem;
+}
+
+.reactions {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.react-btn {
+  cursor: pointer;
+  background: none;
+  border: none;
 }
